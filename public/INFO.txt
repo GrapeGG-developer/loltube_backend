@@ -1,9 +1,0 @@
-LolTube v1 - Настроено для grapescript
-IP бекенда: 192.168.0.108
-Фронт: https://grapescript.gitverse.site/loltube
-Бекенд URL: http://192.168.0.108:3000
-
-Как запустить:
-1. Распакуй loltube-backend-full.zip в C:\LolTube
-2. node server.js
-3. Открой https://grapescript.gitverse.site/loltube на телефоне в той же Wi-Fi сети
