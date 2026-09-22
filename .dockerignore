@@ -1,9 +1,0 @@
-node_modules
-npm-debug.log
-.git
-.gitignore
-uploads/*
-!uploads/thumbs
-!uploads/avatars
-data/db.json
-.env
