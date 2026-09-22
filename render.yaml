@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: loltube
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+    # Free tier has ephemeral disk - uploads will be deleted on restart!
+    # For persistent storage use Fly.io with volume or add S3/Cloudinary
